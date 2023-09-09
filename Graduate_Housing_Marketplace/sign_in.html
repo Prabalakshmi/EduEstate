@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign In Page</title>
+	<link rel="stylesheet" type="text/css" href="sign_in.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Sign In</h1>
+		<form action="sign_in.php" method="post">
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
+			<label for="options">Choose an option:</label>
+			<select id="options" name="options">
+				<option value="buyer">Buyer</option>
+				<option value="seller">Seller</option>
+			</select>
+			<input type="submit" value="Sign In">
+		</form>
+		<p>Don't have an account? <a href="sign_up.html">Sign up here</a></p>
+	</div>
+</body>
+</html>

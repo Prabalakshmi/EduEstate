@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Product</title>
+  <link rel="stylesheet" href="add_product.css">
+</head>
+<body>
+  <h1>Add Product</h1>
+  <form action="add_product.php" method="post">
+    <label for="title">Product Name:</label>
+    <input type="text" name="title" id="title" required><br>
+    <label for="description">Product Description:</label>
+    <input type="text" name="description" id="description" required><br>
+    <label for="price">Price:</label>
+    <input type="number" name="price" id="price" step="0.01" required><br>
+    <button type="submit">Add Product</button>
+  </form>
+  <form action="seller_account.php" method="post">
+    <button type="submit">Account</button>
+  </form>
+</body>
+</html>
